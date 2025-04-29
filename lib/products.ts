@@ -47,7 +47,7 @@ export const products: Product[] = [
       { id: 3, name: "Fritas 400gr + Cheddar", price: 17.90 },
       { id: 4, name: "Creme de Gorgonzola", price: 6.0 },
       { id: 5, name: "Catupiry", price: 5 },
-      { id: 6, name: "Maionese - Mostar e Mel 120 ml", price: 3 },
+      { id: 6, name: "Maionese - Mostarda e Mel 120 ml", price: 3 },
       { id: 7, name: "Maionese - Alho 120 ml", price: 3 },
       { id: 8, name: "Maionese - Bacon ml", price: 3 },
       { id: 9, name: "Geléia de frutas vermelhas", price: 3 },
@@ -60,7 +60,7 @@ export const products: Product[] = [
     id: 1,
     name: "Seu 1º Pedido - Entrega Grátis",
     description:
-      "Monte seu combo de boas vindas, a taxa de entrega não se aplica no 1º pedido",
+      "Monte seu combo de boas vindas, a taxa de entrega não se aplica no 1º pedido \n Confira os lanches na página principal!",
     price: 0.00,
     image: "/images/produto1.jpg",
     // Example local video
@@ -68,15 +68,15 @@ export const products: Product[] = [
       
     ],
     additionals: [
-      { id: 1, name: "Aesir", price: 27.50 },
-      { id: 2, name: "Frigga", price: 22.50  },
-      { id: 3, name: "Heimdall", price: 22.50  },
-      { id: 4, name: "Jotunheim", price: 22.50 },
-      { id: 5, name: "Midgard", price: 22.50  },
-      { id: 6, name: "Forsetil", price:22.50  },
-      { id: 7, name: "Iscas de frango com tempero da casa", price: 25.90 },
-      { id: 8, name: "Fritas com bacon e Catupiry", price: 22.50 },
-      { id: 9, name: "Fritas com bacon e cheddar", price: 22.50 },
+      { id: 1, name: "Aesir", price: 21.90 },
+      { id: 2, name: "Frigga", price: 21.90  },
+      { id: 3, name: "Heimdall", price: 21.90  },
+      { id: 4, name: "Jotunheim", price: 21.90 },
+      { id: 5, name: "Midgard", price: 21.90  },
+      { id: 6, name: "Forsetil", price: 21.90  },
+      { id: 7, name: "Iscas de frango com tempero da casa", price: 21.90 },
+      { id: 8, name: "Fritas com bacon e Catupiry", price: 15.90 },
+      { id: 9, name: "Fritas com bacon e cheddar", price: 15.90 },
     ],
     accompaniments: [
      
@@ -87,7 +87,7 @@ export const products: Product[] = [
     name: "Aesir",
     description: 
     `Aesir em sua versão suprema: pão brioche com 2 bifes de 150g de blend bovino, alface, tomate, cebola roxa, bacon e mussarela EM DOBRO!`,
-    price: 39,
+    price: 25.90,
     image: "/images/produto2.jpg",
     media: {
       type: "local",
@@ -100,7 +100,7 @@ export const products: Product[] = [
       { id: 3, name: "Fritas 400gr + Cheddar", price: 17.90 },
       { id: 4, name: "Creme de Gorgonzola", price: 6.0 },
       { id: 5, name: "Catupiry", price: 5 },
-      { id: 6, name: "Maionese - Mostar e Mel 120 ml", price: 3 },
+      { id: 6, name: "Maionese - Mostarda e Mel 120 ml", price: 3 },
       { id: 7, name: "Maionese - Alho 120 ml", price: 3 },
       { id: 8, name: "Maionese - Bacon ml", price: 3 },
       { id: 9, name: "Geléia de frutas vermelhas", price: 3 },
@@ -115,7 +115,7 @@ export const products: Product[] = [
     name: "Frigga",
     description:
       "Rendam-se aos sabores mitológicos do Frigga! Inspirado na majestosa deusa nórdica, nosso hambúrguer possui um blend bovino de 150g, a força do bacon, a ousadia do creme de gorgonzola e a doçura da geleia de frutas vermelhas",
-    price: 33.00,
+    price: 21.90,
     image: "/images/produto3.jpg",
     media: {
       type: "local",
@@ -133,7 +133,7 @@ export const products: Product[] = [
       { id: 3, name: "Fritas 400gr + Cheddar", price: 17.90 },
       { id: 4, name: "Creme de Gorgonzola", price: 6.0 },
       { id: 5, name: "Catupiry", price: 5 },
-      { id: 6, name: "Maionese - Mostar e Mel 120 ml", price: 3 },
+      { id: 6, name: "Maionese - Mostarda e Mel 120 ml", price: 3 },
       { id: 7, name: "Maionese - Alho 120 ml", price: 3 },
       { id: 8, name: "Maionese - Bacon ml", price: 3 },
       { id: 9, name: "Geléia de frutas vermelhas", price: 3 },
@@ -148,7 +148,7 @@ export const products: Product[] = [
     name: "Heimdall",
     description:
       "O sabor irresistível do cheddar derretido combinado com um suculento hambúrguer e um bacon super crocante, é a combinação perfeita para matar aquela monstruosa fome de hamburguer",
-    price: 37.50,
+    price: 21.50,
     image: "/images/produto4.jpg",
     media: {
       type: "local",
@@ -167,7 +167,7 @@ export const products: Product[] = [
       { id: 3, name: "Fritas 400gr + Cheddar", price: 17.90 },
       { id: 4, name: "Creme de Gorgonzola", price: 6.0 },
       { id: 5, name: "Catupiry", price: 5 },
-      { id: 6, name: "Maionese - Mostar e Mel 120 ml", price: 3 },
+      { id: 6, name: "Maionese - Mostarda e Mel 120 ml", price: 3 },
       { id: 7, name: "Maionese - Alho 120 ml", price: 3 },
       { id: 8, name: "Maionese - Bacon ml", price: 3 },
       { id: 9, name: "Geléia de frutas vermelhas", price: 3 },
@@ -182,7 +182,7 @@ export const products: Product[] = [
     id: 5,
     name: "Jotunheim",
     description: "O sabor irresistível do provolone derretido combinado com um suculento hambúrguer e um bacon super crocante com cebola caramelizada, é a combinação perfeita para matar aquela monstruosa fome de hamburguer",
-    price: 29.90,
+    price: 25.90,
     image: "/images/produto5.jpg",
     media: {
       type: "local",
@@ -201,7 +201,7 @@ export const products: Product[] = [
       { id: 3, name: "Fritas 400gr + Cheddar", price: 17.90 },
       { id: 4, name: "Creme de Gorgonzola", price: 6.0 },
       { id: 5, name: "Catupiry", price: 5 },
-      { id: 6, name: "Maionese - Mostar e Mel 120 ml", price: 3 },
+      { id: 6, name: "Maionese - Mostarda e Mel 120 ml", price: 3 },
       { id: 7, name: "Maionese - Alho 120 ml", price: 3 },
       { id: 8, name: "Maionese - Bacon ml", price: 3 },
       { id: 9, name: "Geléia de frutas vermelhas", price: 3 },
@@ -236,7 +236,7 @@ export const products: Product[] = [
       { id: 3, name: "Fritas 400gr + Cheddar", price: 17.90 },
       { id: 4, name: "Creme de Gorgonzola", price: 6.0 },
       { id: 5, name: "Catupiry", price: 5 },
-      { id: 6, name: "Maionese - Mostar e Mel 120 ml", price: 3 },
+      { id: 6, name: "Maionese - Mostarda e Mel 120 ml", price: 3 },
       { id: 7, name: "Maionese - Alho 120 ml", price: 3 },
       { id: 8, name: "Maionese - Bacon ml", price: 3 },
       { id: 9, name: "Geléia de frutas vermelhas", price: 3 },
@@ -250,7 +250,7 @@ export const products: Product[] = [
     id: 6,
     name: "Midgard",
     description: "Blend 180g, queijo american cheese, Catupiry e farofa de bacon defumado, no pão de brioche artesanal chapeado na manteiga.",
-    price: 24.90,
+    price: 27.90,
     image: "/images/produto6.jpg",
     media: {
       type: "local",
@@ -268,7 +268,7 @@ export const products: Product[] = [
       { id: 3, name: "Fritas 400gr + Cheddar", price: 17.90 },
       { id: 4, name: "Creme de Gorgonzola", price: 6.0 },
       { id: 5, name: "Catupiry", price: 5 },
-      { id: 6, name: "Maionese - Mostar e Mel 120 ml", price: 3 },
+      { id: 6, name: "Maionese - Mostarda e Mel 120 ml", price: 3 },
       { id: 7, name: "Maionese - Alho 120 ml", price: 3 },
       { id: 8, name: "Maionese - Bacon ml", price: 3 },
       { id: 9, name: "Geléia de frutas vermelhas", price: 3 },
@@ -285,7 +285,7 @@ export const products: Product[] = [
     id: 9,
     name: "Iscas de frango com tempero da casa",
     description: "800gde Frango empanado, com tempero do Cheff",
-    price: 89.90,
+    price: 29.90,
     image: "/images/produto9.jpg",
     ingredients: [
       "Frango empanado",
@@ -294,7 +294,7 @@ export const products: Product[] = [
     additionals: [
       { id: 4, name: "Creme de Gorgonzola", price: 6.0 },
       { id: 5, name: "Catupiry", price: 5 },
-      { id: 6, name: "Maionese - Mostar e Mel 120 ml", price: 3 },
+      { id: 6, name: "Maionese - Mostarda e Mel 120 ml", price: 3 },
       { id: 7, name: "Maionese - Alho 120 ml", price: 3 },
       { id: 8, name: "Maionese - Bacon ml", price: 3 },
       { id: 9, name: "Geléia de frutas vermelhas", price: 3 },
@@ -307,7 +307,7 @@ export const products: Product[] = [
     id: 10,
     name: "Fritas com bacon e cheddar",
     description: "500g de batata acompanhada de cheddar, e bacon",
-    price: 59.90,
+    price: 19.90,
     image: "/images/produto10.jpg",
     ingredients: [
       "Batata",
@@ -318,7 +318,7 @@ export const products: Product[] = [
     additionals: [
       { id: 4, name: "Creme de Gorgonzola", price: 6.0 },
       { id: 5, name: "Catupiry", price: 5 },
-      { id: 6, name: "Maionese - Mostar e Mel 120 ml", price: 3 },
+      { id: 6, name: "Maionese - Mostarda e Mel 120 ml", price: 3 },
       { id: 7, name: "Maionese - Alho 120 ml", price: 3 },
       { id: 8, name: "Maionese - Bacon ml", price: 3 },
       { id: 9, name: "Geléia de frutas vermelhas", price: 3 },
@@ -333,7 +333,7 @@ export const products: Product[] = [
     id: 11,
     name: "Fritas com bacon e catupiry",
     description: "500g de batata acompanhada de catupiry, e bacon",
-    price: 89.90,
+    price: 19.90,
     image: "/images/produto11.jpg",
     ingredients: [
       "Batata",
@@ -344,7 +344,7 @@ export const products: Product[] = [
     additionals: [
       { id: 4, name: "Creme de Gorgonzola", price: 6.0 },
       { id: 5, name: "Catupiry", price: 5 },
-      { id: 6, name: "Maionese - Mostar e Mel 120 ml", price: 3 },
+      { id: 6, name: "Maionese - Mostarda e Mel 120 ml", price: 3 },
       { id: 7, name: "Maionese - Alho 120 ml", price: 3 },
       { id: 8, name: "Maionese - Bacon ml", price: 3 },
       { id: 9, name: "Geléia de frutas vermelhas", price: 3 },
