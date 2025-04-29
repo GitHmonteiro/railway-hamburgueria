@@ -34,7 +34,7 @@ declare global {
   
   export class FacebookPixelService {
     private static initialized = false;
-    private static pixelId = '663421426299567'; // Seu Pixel ID
+    private static pixelId = '1208497223978805'; // Seu Pixel ID
   
     public static initialize(): void {
       if (this.initialized || typeof window === 'undefined') return;
