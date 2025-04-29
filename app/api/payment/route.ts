@@ -40,7 +40,7 @@ export async function POST(request: Request) {
 
     if (!paymentData?.amount || !paymentData?.client) {
       return NextResponse.json(
-        { status: "error", message: "Dados de pagamento incompletos" },
+        { status: "error", message: "Dados de pagamento incompleto" },
         { status: 400 }
       );
     }
