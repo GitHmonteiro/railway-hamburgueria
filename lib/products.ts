@@ -36,6 +36,10 @@ export const products: Product[] = [
     price: 32.50,
     image: "/images/produto0.jpg",
     // Example local video
+    media: {
+      type: "local",
+      url: "/videos/produto0.mp4",
+    },
     ingredients: ["Blend 150g", "Bacon", "Cheddar"],
     additionals: [
       { id: 1, name: "Blend bovino de 150g", price: 9.50 },
@@ -60,10 +64,6 @@ export const products: Product[] = [
     price: 0.00,
     image: "/images/produto1.jpg",
     // Example local video
-    media: {
-      type: "local",
-      url: "/videos/produto1.mp4",
-    },
     ingredients: [
       
     ],
