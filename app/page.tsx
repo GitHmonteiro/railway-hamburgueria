@@ -10,7 +10,13 @@ import { ShoppingBag } from "lucide-react";
 import { useCartStore } from "@/lib/cart";
 import { fetchEnderecoLojaProxima } from "@/lib/api";
 import { CartDrawer } from "@/components/cart-drawer";
-
+import { FacebookPixelService } from '@/app/checkout/pixel.service';
+FacebookPixelService.initialize();
+FacebookPixelService.track('PageView', {
+  content_type: 'product',
+  contents: products,
+  num_items: products.length
+});
 interface UserInfo {
   name: string;
   cep: string;
