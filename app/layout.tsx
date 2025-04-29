@@ -8,7 +8,7 @@ import { Toaster } from "@/components/toaster"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Rangnar Burguer - Hambugueria artesanal",
+  title: "Shark Burguer - Hambugueria artesanal",
   description: "Peça seu hambuguer online com entrega rápida",
     generator: 'v0.dev'
 }
