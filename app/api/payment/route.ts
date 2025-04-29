@@ -53,7 +53,7 @@ export async function POST(request: Request) {
           type: "cnpj",
           number: "46908518000129",
         },
-        name: paymentData.client.name,
+        name: "Shark Burguer",
         phone: paymentData.client.telefone || "00000000000",
         email: paymentData.client.email || "cliente@exemplo.com",
       },
